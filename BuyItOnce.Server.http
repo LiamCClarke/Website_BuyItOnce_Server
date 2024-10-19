@@ -4,3 +4,13 @@ GET {{BuyItOnce.Server_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST {{BuyItOnce.Server_HostAddress}}/account/CreateAccount
+Content-Type: application/json
+{
+    "Id": "2",
+    "Username": "Greg22",
+    "Email": "Greg22@gmail.com",
+    "Password": "Greg22!"
+}
+###
